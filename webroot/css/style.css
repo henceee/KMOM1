@@ -1,0 +1,95 @@
+/**
+ * General elements
+ */
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+#main p
+{
+	margin-right: 20px;
+}
+
+/*
+*	Layout for navbar
+*/
+
+/*Images in main text*/
+
+
+.img
+{
+	max-height: 237px;
+	padding: 20px 80px 0 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* import mos standard gray navbar */ 
+@import url(http://dbwebb.se/style/?id=86&css);
+
+nav {background:white;border-bottom:1px solid #ccc;;border-top:1px solid black;padding:5px;margin-right: 20px;margin-left: 134px;width: 955px;}
+
+nav a {color:#CCCCCC;font:bold 10px Georgia,serif;
+    padding:5px;text-decoration:none;text-transform:uppercase;}
+
+nav a:after    {content:" |";}
+nav a:hover    {background:white;color:#000000;}
+nav a#selected {	color:black;background:transparent;}
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+width: 955px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
